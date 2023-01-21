@@ -86,6 +86,7 @@ body {
 
 .layers__middle {
     transform: translate3d(0, calc(var(--scrollTop) / 2.5), 0);
+    position: absolute;
 }
 
 .layers__front {

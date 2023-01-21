@@ -9,6 +9,7 @@
     <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
     <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
     <script src="js/app.js" defer></script>
+    <script src="libs/gsap/particles.js" defer></script>
     <title>Welcome to Paralax</title>
 </head>
 <body>
@@ -16,15 +17,18 @@
         <div class="content">
 
             <header class="main-header">
+
                 <div class="layers">
                     <div class="layer__header">
                         <div class="layers__caption">Welcome to Paralax</div>
-                        <div class="layers__title">Fairy Forest </div>
+                        <div class="layers__title">Fairy Forest</div>
                     </div>
                     <div class="layer layers__base" style="background-image: url(img/layer-base.png);"></div>
                     <div class="layer layers__middle" style="background-image: url(img/layer-middle.png);"></div>
+                    <canvas class="particles layers__middle" data-swiper-parallax="25%" data-color="#E8DE9A"></canvas>
                     <div class="layer layers__front" style="background-image: url(img/layer-front.png);"></div>
                 </div>
+
             </header>
         
             <article class="main-article" style="background-image: url(img/dungeon.jpg);">
