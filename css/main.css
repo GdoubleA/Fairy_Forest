@@ -145,3 +145,7 @@ body {
 .content {
     will-change: transform;
 }
+
+.particles {
+    transform: none;
+}
